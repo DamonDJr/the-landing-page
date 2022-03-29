@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-around;
+    font-size: 24px;
+    flex-shrink:0;
+    padding:12px;
+}
+
+.header .left{
+    font-weight: 600;
+    
+}
+ul{
+    display: flex;
+    margin: 0;
+    padding:0;
+    list-style: none;
+    gap: 32px;
+    font-family: 'Roboto',sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.top{
+    display:flex;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 100px;
+    gap: 90px;
+    
+    
+}
+
+.top .left{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+
+.main{
+    max-width: 300px;
+    font-size: 48px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 800;
+    color: #F9FAF8;
+    
+}
+
+.placeholder{
+    background-color: grey;
+    padding: 100px 125px;
+
+}
+
+.secondary{
+    font-family: 'Roboto';
+    color: #F9FAF8;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 350px;
+    font-size: 18px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 16px;
+    align-self: flex-start;
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.img-placeholder{
+    display: flex;
+    justify-content: center;
+    gap:25px
+}
+
+.blank{
+    padding: 75px;
+    border: solid 2px #3882F6;
+    border-radius: 20px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'Roboto';
+    text-align: center;
+    padding: 40px;
+}
+
+.combo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis:0;
+    gap: 5px;
+}
+
+.info{
+    max-width:135px;
+    text-align: center;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    background-color: #E5E7EB;
+    padding:100px;
+}
+
+.credit{
+    align-self: flex-end;
+    color: #1f2937;
+    font-weight: 600;
+}
+
+.quote{
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    max-width: 900px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    background-color: #3882F6;
+    margin: 50px;
+    border-radius: 5px;
+}
+
+.footer .left{
+    display: flex;
+    flex-direction: column;
+    color: #E5E7EB;
+}
+
+.call {
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+.right button{
+    border: solid 2px #F9FAF8;
+    border-radius: 10px;
+    padding: 10px;
+}
