@@ -58,6 +58,7 @@ a {
     font-family: 'Roboto',sans-serif;
     font-weight: 800;
     color: #1f2937;
+    flex-shrink: 0;
     
 }
 
@@ -72,6 +73,7 @@ a {
     flex-wrap: wrap;
     max-width: 350px;
     font-size: 18px;
+    flex-shrink: 0;
 }
 
 button{
@@ -85,16 +87,19 @@ button{
     display: flex;
     flex-direction: column;
     padding: 50px;
+    justify-content: center;
 }
 
 .img-placeholder{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap:25px
 }
 
-.blank{
-    padding: 75px;
+.blank img{
+    height: 200px;
+    width: 200px;
     border: solid 2px #3882F6;
     border-radius: 20px;
 }
@@ -118,6 +123,7 @@ button{
 .info{
     max-width:135px;
     text-align: center;
+    align-self: center;
 }
 
 .bottom{
